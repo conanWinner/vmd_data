@@ -5,7 +5,7 @@ from pymongo import MongoClient
 from google.genai import types
 
 # Khởi tạo client cho Gemini với API key của bạn
-genai_client = genai.Client(api_key="...") 
+genai_client = genai.Client(api_key="AIzaSyA8G0cHkXQwOQ8V07B_k4452u5WLJYkVWs") 
 
 def gemini_process(doc):
     # Chuyển đổi ObjectId sang chuỗi nếu có
